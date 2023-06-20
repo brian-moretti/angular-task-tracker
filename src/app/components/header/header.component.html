@@ -1,0 +1,16 @@
+<header>
+  <h1>{{ title.toUpperCase() }}</h1>
+  <app-button *ngIf="hasRoute('/')"
+    (btnClick)="toggleAddTask()"
+    color="{{showAddTask ? 'red' : 'green' }}"
+    text="{{showAddTask ? 'Close' : 'Add' }}"
+  ></app-button>
+</header>
+
+<!--
+  !Questo rende il componente button riutilizzabile in qualsiasi componente con stile e metodo specifici
+-->
+
+<!--
+  !Il selettore del button ha un evento collegato ad un metodo di questo componente. L'evento è collegato al componente button in cui è presente un evento click legato ad un metodo del componente button che emette l'evento in questo componente
+-->

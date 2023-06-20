@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "text": "25/30 Piegamenti con il Maetro Zev a fine lezione",
+      "day": "Lunedi 20 Marzo - 23:00",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "Rendere IG un bel posto con storie al veleno",
+      "day": "SEMPREEEE",
+      "reminder": true,
+      "id": 2
+    },
+    {
+      "text": "Lezioni",
+      "day": "Mercoledì alle 10:00",
+      "reminder": true,
+      "id": 3
+    }
+  ]
+}

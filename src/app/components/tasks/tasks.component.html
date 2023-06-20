@@ -1,0 +1,12 @@
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
+
+<!-- Selettore per tasks fisso file mock-task -->
+<app-task-item *ngFor="let task of fixTasks" [task]="task"></app-task-item>
+
+<!-- Selettore per tasks dinamico con Database -->
+<app-task-item
+  *ngFor="let task of tasks"
+  [task]="task"
+  (onDeleteTask)="deleteTask(task)"
+  (onToggleReminder)="reminder(task)"
+></app-task-item>
